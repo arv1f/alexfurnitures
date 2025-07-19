@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Bebas Neue';
+  /* Имя шрифта */
+  src: url('../assets/fonts/Bebas Neue/BebasNeue-Regular.ttf') format('truetype');
+  /* Убедитесь, что путь и формат файла верны */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-primary text-secondary;
+  }
+}
+
+/* Обновлен класс для пиксельного шрифта */
+.font-pixel {
+  font-family: 'PublicPixel', cursive;
+  text-shadow:
+    -1px -1px 0 var(--accent),
+    1px -1px 0 var(--accent),
+    -1px 1px 0 var(--accent),
+    1px 1px 0 var(--accent);
+}
+
+:root {
+  --primary: #000000;
+  --secondary: #ffffff;
+  --accent: #9966CC;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+  overflow-x: hidden;
+  /* Удаляем фоновый паттерн отсюда */
+  /*
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+  background-size: 40px 40px;
+*/
+}
+
+/* Скрываем полосу прокрутки для всех браузеров */
+html {
+  overflow-x: hidden;
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
+/* Скрываем полосу прокрутки для Chrome, Safari и Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Скрываем полосу прокрутки для IE, Edge и Firefox */
+* {
+  -ms-overflow-style: none;
+  /* IE и Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Скрываем полосу прокрутки для мобильных устройств */
+@media (max-width: 768px) {
+  body {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
+  }
+}
+
+/* Запрещаем горизонтальный скролл */
+html {
+  width: 100%;
+}
+
+/* Пользовательский класс для фонового паттерна */
+.bg-pattern-grid {
+  position: relative;
+  background-image: linear-gradient(to right, rgba(153, 102, 204, 0.15) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(153, 102, 204, 0.15) 1px, transparent 1px);
+  background-size: 30px 30px;
+  background-position: center center;
+}
+
+/* Пользовательский класс для отключения выделения текста */
+.no-select {
+  user-select: none;
+  /* Standard */
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10+ */
+}
+
+/* Стиль для выделенного текста */
+::selection {
+  background: #9966CC;
+  /* Фиолетовый цвет Accent */
+  color: #ffffff;
+  /* Белый цвет текста */
+}
+
+::moz-selection {
+  /* Для Firefox */
+  background: #9966CC;
+  color: #ffffff;
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
