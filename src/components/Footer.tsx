@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="grid grid-cols-1 grid-rows-[] gap-3 lg:gap-0 lg:grid-cols-[45%_30%_25%] lg:grid-rows-[40px_51px_53px_23px_59px_38px_103px] mt-[150px] lg:mt-[100px] min-h-[432px] text-sm">
+    <div className="grid grid-cols-1 grid-rows-[] gap-3 lg:gap-0 lg:grid-cols-[45%_30%_25%] lg:grid-rows-[40px_51px_53px_23px_59px_38px_103px] mt-[150px] lg:mt-[100px] min-h-[432px] text-sm border-t border-[#B4B4B4]">
       <div className="row-start-1 lg:col-start-1 lg:row-start-2 flex items-center">
         <div className="flex items-center">
           <div className="relative flex items-center w-10 md:w-12">
@@ -29,7 +29,7 @@ export default function Footer() {
         <span className="row-start-4">Партнерам</span>
         <span className="row-start-5">Контакты</span>
       </div>
-      <span className="row-start-11 lg:col-start-2 text-[#9A9898]">Политика конфиденциальности</span>
+      <span className="row-start-11 lg:row-start-8 lg:col-start-2 text-[#9A9898]">Политика конфиденциальности</span>
 
 
       <span className="row-start-7 lg:row-start-2 lg:col-start-3 font-bold">Контакты</span>
