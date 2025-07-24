@@ -1,11 +1,11 @@
-import YellowLine from "./ui/YellowLine";
+import YellowLine from "../public/icons/YellowLineIcon";
 export default function ContainerInfo6() {
   return (
     <div className="xl:mt-[60px] min-h-[400px]
     grid-cols-1 md:grid-cols-[49.5%_49.5%] lg:grid-cols-[25%_25%_25%_25%] grid
     grid-rows-[4%_26%_26%_26%_26%] md:grid-rows-[0_50%_50%] lg:grid-rows-[20%_auto]">
       <span className="row-start-1 text-[30px] md:text-3xl lg:text-4xl font-bold
-      leading-[135%] tracking-[0.02em] text-[#333333] self-stretch text-nowrap">Важно знать</span>
+      leading-[135%] tracking-[0.02em] text-[#333333] text-nowrap">Важно знать</span>
       <div className="row-start-2 md:col-start-1">
         <div className="col-span-1 w-[96%] h-[588px] mb-[10px] bg-white shadow-[0_0_12px_#E3E3E3] rounded-[20px] grid grid-rows-[243px_103px_134px_130px]">
           <div className="row-start-1 row-end-2 w-full overflow-hidden rounded-lg">
@@ -19,7 +19,7 @@ export default function ContainerInfo6() {
               <YellowLine/>
               Размеры в сложенном: 860 х 740
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 -ml-1">
               <YellowLine/>
               Высота: 470 мм
             </div>
@@ -50,11 +50,11 @@ export default function ContainerInfo6() {
           </div>
           <span className="mx-[10px] row-start-2 row-end-3 font-bold text-2xl md:text-xl lg:text-base xl:text-xl">Кухня Модуль</span>
           <div className="mx-[10px] row-start-3 row-end-4 grid grid-rows-3 gap-2 text-xl md:text-lg lg:text-sm xl:text-base">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 -ml-[3px]">
               <YellowLine/>
               Размеры: 2,2 метра
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 -ml-[3.5px]">
               <YellowLine/>
               Высота: 470 мм
             </div>

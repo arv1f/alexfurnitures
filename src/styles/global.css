@@ -9,6 +9,27 @@
   font-style: normal;
 }
 
+
+button:active,
+button:focus {
+  transform: none;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
