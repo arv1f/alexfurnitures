@@ -2,7 +2,7 @@ export default function ContainerInfo4() {
   return (
     <div className="grid grid-rows-[5%_38%_7%_10%] md:grid-rows-[7%_28%_7%_10%] lg:grid-rows-[5%_75%] lg:grid-cols-[48.5%_auto] gap-x-[1.5%] gap-y-4 lg:max-h-[680px]">
         <div className="row-start-4 lg:row-start-1 col-start-1 w-full h-[680px] bg-[url('a_modern_professional_office_building_exterior_representing_-_furniture_company_the_image_should_co_i5qw5pw5y52xpm5f88pe_2.png')] rounded-[20px] overflow-hidden">
-          <img className="w-full h-[60%] lg:h-full object-cover" src="src\assets\images\image\8e32ed76445f5de8639183b969fed2ced6ddac0a.png" alt="" />
+          <img className="w-full h-[60%] lg:h-full object-cover" src="src\public\images\image\8e32ed76445f5de8639183b969fed2ced6ddac0a.png" alt="" />
         </div>
           <span className="row-start-1 lg:col-start-2 text-[30px] md:text-3xl lg:text-4xl font-bold
           leading-[135%] tracking-[0.02em] text-[#333333] text-nowrap">О компании</span>

@@ -6,7 +6,7 @@ export default function ContainerInfo1() {
       style={{
       backgroundImage: `linear-gradient(191.25deg, rgba(0, 0, 0, 0) 8.99%, rgba(0, 0, 0, 0.45) 57.63%), url(a_high-end_minimalist_furniture_display_showcasing_alex-mebels_core_product_categories_kitchens_tab_oe4tc7bdonyzj9lz22k7_2.png)`
       }}
-      src="src\assets\images\image\0e7951d5ddd77198e289657cb0613c917a98cf84 (1).png" alt="" />
+      src="src\public\images\image\0e7951d5ddd77198e289657cb0613c917a98cf84 (1).png" alt="" />
       <div className="lg:row-start-1 z-1 relative m-[20px] md:m-[40px] lg:m-[50px]">
         <div className="space-y-12 md:space-y-16 lg:space-y-6 mt-[22px] lg:mt-[250px] grid">
           <h1 className="w-full h-[60px] md:h-[75px] font-inter font-bold text-lg md:text-2xl lg:text-[33px] leading-normal md:leading-[75px] tracking-[0.02em] uppercase text-white">

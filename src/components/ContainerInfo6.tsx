@@ -9,7 +9,7 @@ export default function ContainerInfo6() {
       <div className="row-start-2 md:col-start-1">
         <div className="col-span-1 w-[96%] h-[588px] mb-[10px] bg-white shadow-[0_0_12px_#E3E3E3] rounded-[20px] grid grid-rows-[243px_103px_134px_130px]">
           <div className="row-start-1 row-end-2 w-full overflow-hidden rounded-lg">
-            <img src="src/assets/images/image/b9badf0ee905126e61a352e230777689da0c4699.png" 
+            <img src="src/public/images/image/b9badf0ee905126e61a352e230777689da0c4699.png" 
               alt="Стол-трансформер" 
               className="h-[223px] w-full object-center"/>
           </div>
@@ -43,7 +43,7 @@ export default function ContainerInfo6() {
         <div className="col-span-1 w-[96%] h-[588px] mb-[10px] bg-white shadow-[0_0_12px_#E3E3E3] rounded-[20px] grid grid-rows-[243px_103px_134px_130px]">
           <div className="row-start-1 row-end-2 w-full overflow-hidden rounded-lg">
             <img 
-              src="src\assets\images\image\b105798963bd1df2a427cb6f875f490a59c9b3bb.png" 
+              src="src\public\images\image\b105798963bd1df2a427cb6f875f490a59c9b3bb.png" 
               alt="Стол-трансформер" 
               className="h-[223px] w-full object-center"
             />
@@ -78,7 +78,7 @@ export default function ContainerInfo6() {
         <div className="col-span-1 w-[96%] h-[588px] mb-[10px] bg-white shadow-[0_0_12px_#E3E3E3] rounded-[20px] grid grid-rows-[243px_103px_134px_130px]">
           <div className="row-start-1 row-end-2 w-full overflow-hidden rounded-lg">
             <img 
-              src="src\assets\images\image\62763175912fd3802ec17823919eb29fe43943f0.png" 
+              src="src\public\images\image\62763175912fd3802ec17823919eb29fe43943f0.png" 
               alt="Стол-трансформер" 
               className="h-[223px] w-full object-center"/>
           </div>
@@ -112,7 +112,7 @@ export default function ContainerInfo6() {
         <div className="col-span-1 w-[96%] h-[588px] mb-[10px] bg-white shadow-[0_0_12px_#E3E3E3] rounded-[20px] grid grid-rows-[243px_103px_134px_130px]">
           <div className="row-start-1 row-end-2 w-full overflow-hidden rounded-lg">
             <img 
-              src="src\assets\images\image\b421e06b43dcbe71ed958de9d4d2e27ea3c52f50.png" 
+              src="src\public\images\image\b421e06b43dcbe71ed958de9d4d2e27ea3c52f50.png" 
               alt="Стол-трансформер" 
               className="h-[223px] w-full object-center"
             />
